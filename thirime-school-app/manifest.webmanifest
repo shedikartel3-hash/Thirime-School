@@ -1,0 +1,24 @@
+{
+ "id": "./index.html",
+ "name": "THIRIME SCHOOL",
+ "short_name": "Thirime",
+ "description": "Marks, reports, attendance, fees, parents, guidance and timetables for your school",
+ "lang": "en",
+ "start_url": "./index.html",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#122b6e",
+ "theme_color": "#122b6e",
+ "categories": ["education"],
+ "icons": [
+  {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+  {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+  {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+  {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+ ],
+ "screenshots": [
+  {"src": "screenshots/wide.png", "sizes": "1280x720", "type": "image/png", "form_factor": "wide", "label": "Overview and results"},
+  {"src": "screenshots/narrow.png", "sizes": "750x1334", "type": "image/png", "form_factor": "narrow", "label": "Works on phones"}
+ ]
+}
